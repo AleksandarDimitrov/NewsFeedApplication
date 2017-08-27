@@ -1,0 +1,50 @@
+.root {
+     -fx-background-color: #1E1B1B;
+}
+
+.rootHbox {
+     -fx-background-color: #2d2d2d;
+}
+
+.rootRSS{
+	-fx-background-color: #454545;
+}
+.titleTable{
+	-fx-background-color: #949494;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#989898, #2B2A2A);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#989898, #2B2A2A);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.rootNews{
+	-fx-background-color: #333333;
+}
+
+.text-area .content{
+	-fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+	-fx-background-color: #202020;
+}
+
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#989898, #2B2A2A);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2B2A2A, #989898);
+}
